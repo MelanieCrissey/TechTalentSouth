@@ -1,5 +1,5 @@
 #ask the user to provide 10 numbers
-#read numbers to use in descending order
+#read numbers to user in descending order
 
 numbers_array = Array.new
 
