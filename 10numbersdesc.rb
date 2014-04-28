@@ -7,7 +7,7 @@ numbers_array = Array.new
 
 	puts "Gimme a number!"
 
-	user_answer = gets.chomp.to_i
+	user_answer = gets.chomp.to_f
 
 	numbers_array.push (user_answer)
 

@@ -1,5 +1,5 @@
 #ask the user to provide 10 numbers
-#read numbers to use in descending order
+#read numbers to user in reverse
 
 numbers_array = Array.new
 
@@ -7,13 +7,12 @@ numbers_array = Array.new
 
 	puts "Gimme a number!"
 
-	user_answer = gets.chomp.to_i
+	user_answer = gets.chomp
 
 	numbers_array.push (user_answer)
 
 end
 
+reversed_numbers = numbers_array.reverse
 
-sorted_array = numbers_array.sort.reverse
-
-puts "Thanks! Here are your numbers in descending order: " + sorted_array.join(' ').to_s
+puts "Thanks! Here are your numbers: " + reversed_numbers.join(' ').to_s
